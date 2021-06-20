@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <Button
+            android:id="@+id/btn_monitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="감시모드 ON" />
+
+        <Button
+            android:id="@+id/btn_monitor_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="감시모드 OFF" />
+
+        <Button
+            android:id="@+id/btn_get_gps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:onClick="btn_get_gps"
+            android:layout_margin="10dp"
+            android:text="자녀위치 확인" />
+
+        <Button
+            android:id="@+id/btn_time_table"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="주간게임이용시간" />
+
+        <Button
+            android:id="@+id/btn_edit_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="닉네임 변경" />
+
+        <Button
+            android:id="@+id/btn_delete_nickname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:text="닉네임 삭제" />
+
+        <Button
+            android:id="@+id/btn_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_margin="10dp"
+            android:onClick="btn_end_Click"
+            android:text="뒤로가기" />
+    </LinearLayout>
+</ScrollView>
